@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="Index.html" class="link">
+            <img src="img/Home.png" class="icon">
+        </a>
+        <a href="sobre.html" class="link">
+            <img src="img/pessoa.png" class="icon">
+        </a>
+        <a href="portfolio.html" class="link">
+            <img src="img/porti.png" class="icon">
+        </a>
+        <a href="contato.html" class="link">
+            <img src="img/contato.png" class="icon">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="calculator">
+            <h2>Calculadora Simples</h2>
+            <input type="number" id="num1" placeholder="Primeiro Número">
+            <input type="number" id="num2" placeholder="Segundo Número">
+            <select id="operation">
+                <option value="add">Adicionar</option>
+                <option value="subtract">Subtrair</option>
+                <option value="multiply">Multiplicar</option>
+                <option value="divide">Dividir</option>
+            </select>
+            <button onclick="calculate()">Calcular</button>
+            <p id="result"></p>
+            </div>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>

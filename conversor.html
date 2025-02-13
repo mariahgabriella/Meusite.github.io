@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="Index.html" class="link">
+            <img src="img/Home.png" class="icon">
+        </a>
+        <a href="sobre.html" class="link">
+            <img src="img/pessoa.png" class="icon">
+        </a>
+        <a href="portfolio.html" class="link">
+            <img src="img/porti.png" class="icon">
+        </a>
+        <a href="contato.html" class="link">
+            <img src="img/contato.png" class="icon">
+        </a>
+    </div>
+    
+    <div class="container">
+        <div class="card">
+            <div class="conversor">
+            <h2>Conversor de Unidades</h2>
+            <input type="number" id="inputValue" placeholder="Digite o valor">
+            <select id="conversionType">
+                <option value="cToF">Celsius para Fahrenheit</option>
+                <option value="mToCm">Metros para Centímetros</option>
+                <option value="kgToLb">Quilos para Libras</option>
+            </select>
+            <button onclick="convert()">Converter</button>
+            <p id="result"></p>
+            </div>
+        </div>
+   </div>
+<script src="js/script.js"></script>
+</body>
+</html>
+<script 

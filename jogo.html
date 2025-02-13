@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <a href="index.html" class="link">
+            <img src="img/home.png" class="icon">
+            <a href="sobre.html" class="link">
+                <img src="img/pessoa.png" class="icon">
+            </a>
+            <a href="portfolio.html" class="link">
+                <img src="img/porti.png" class="icon">
+            </a>
+            <a href="contato.html" class="link">
+                <img src="img/contato.png" class="icon">
+            </a>
+    </div>
+<div class="jogo">
+
+        <h2>Adivinhe o número (1 a 100)</h2>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Tentar</button>
+        <p id="message"></p>
+        <button onclick="resetGame()">Reiniciar</button>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
